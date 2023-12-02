@@ -17,10 +17,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${gothic.className} subpixel-antialiased`}>
-        <div className="flex justify-center pt-12 pl-12 pr-12">
+        <div className="flex justify-center">
           <AvenueLogo />
         </div>
-        <div className="flex justify-center">
+        <div className="flex w-full justify-center">
           <NavBar />
         </div>
         {children}
