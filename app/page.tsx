@@ -12,7 +12,7 @@ export default function Home() {
           className="mt-12"
         />
       </div>
-      <div className="w-3/4 grid grid-cols-12 grid-rows-3 gap-4 mt-12">
+      <div className="w-9/12 xl:w-7/12 grid grid-cols-12 grid-rows-3 gap-4 mt-12">
         <div className="col-start-1 col-end-7">
           <p className="text-left text-xs 2xl:text-5xl xl:text-3xl lg:text-2xl md:text-lg sm:text-md">
             Use of natural stone in an interior space is an investment that will
