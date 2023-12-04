@@ -3,7 +3,7 @@ export default function Footer() {
   return (
     <div className="flex flex-col 2xl:w-3/4 w-11/12 mb-4 bg-emerald-900 text-white">
       <p className="flex justify-center xl:text-base text-[8px] mt-2">
-        Restore - Don't replace.
+        Restore - Don&apos;t replace.
       </p>
       <div className="flex flex-row xl:text-base text-[8px]">
         <FooterNavLinks />
