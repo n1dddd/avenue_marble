@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  background-color: #fdfffc;
-  color: hsl(0, 0%, 27%);
+@layer base {
+  :root {
+    background-color: #fdfffc;
+  }
 }
