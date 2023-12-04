@@ -14,10 +14,10 @@ export default function Home() {
           placeholder="blur"
         />
       </div>
-      <div className="w-11/12 md:w-9/12 grid grid-cols-12 auto-rows-auto gap-y-16 my-12">
+      <div className="w-11/12 md:w-9/12 grid grid-cols-12 auto-rows-auto gap-y-8 my-12">
         <hr className="col-start-1 col-end-13" />
         <div className="col-start-1 col-end-7">
-          <p className="text-justify text-xs 2xl:text-3xl xl:text-3xl lg:text-2xl md:text-lg sm:text-md font-light">
+          <p className="text-left text-sm 2xl:text-3xl xl:text-3xl lg:text-2xl md:text-lg sm:text-sm font-light">
             Avenue Marble Restoration Inc. specializes in all types of stone
             restoration services, providing you with high quality tile repair,
             stone sealing, grout cleaning, marble restoration, marble floor
@@ -43,7 +43,7 @@ export default function Home() {
           />
         </div>
         <div className="col-start-8 col-end-13">
-          <p className="text-justify text-xs 2xl:text-3xl xl:text-3xl lg:text-2xl md:text-lg sm:text-md font-light">
+          <p className="text-left text-sm 2xl:text-3xl xl:text-3xl lg:text-2xl md:text-lg sm:text-md font-light">
             Stone surface is porous and therefore sensitive towards stains,
             acids, hard wear and even direct sunbeams. Cleaning marble floors
             requires a gentle and careful approach. Apart from gentle daily
@@ -56,7 +56,7 @@ export default function Home() {
         </div>
         <hr className="col-start-1 col-end-13" />
         <div className="col-start-1 col-end-7">
-          <p className="text-justify text-xs 2xl:text-3xl xl:text-2xl lg:text-1xl md:text-lg sm:text-md font-light">
+          <p className="text-left text-sm 2xl:text-3xl xl:text-2xl lg:text-1xl md:text-lg sm:text-md font-light">
             The use of natural stone in an interior space is an investment that
             will give you many years of gorgeous design. Natural stone is widely
             used for both residential and commercial designs. The luxurious
