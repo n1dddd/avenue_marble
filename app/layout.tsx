@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { gothic } from "./ui/fonts";
-import AvenueLogo from "./ui/avenue-marble-logo";
+import AvenueLogo from "./ui/components/avenue-marble-logo";
 import NavBar from "./ui/navbar/navbar";
 import "./globals.css";
+import Footer from "./ui/components/footer/footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,14 +17,21 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${gothic.className} subpixel-antialiased`}>
+      <body
+        className={`${gothic.className} subpixel-antialiased text-almostblack flex flex-col`}
+      >
         <div className="flex justify-center">
           <AvenueLogo />
         </div>
         <div className="flex w-full justify-center">
-          <NavBar />
+          <div className="flex w-full 2xl:w-3/4 my-12">
+            <NavBar />
+          </div>
         </div>
         {children}
+        <div className="flex justify-center w-full">
+          <Footer />
+        </div>
       </body>
     </html>
   );
