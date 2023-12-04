@@ -21,14 +21,14 @@ export default function NavLinks() {
             key={link.name}
             href={link.href}
             className={clsx(
-              "flex flex-row xl:h-12 md:h-6 grow items-center border-r-2 border-b-2",
+              "flex flex-row xl:h-12 md:h-6 grow items-center mx-2 border-r-2 border-b-2 border-emerald-900 bg-emerald-900 text-white",
               {
-                "bg-gradient-to-br from-slate-100 to-slate-200 to-transparent":
+                "bg-gradient-to-br from-emerald-950 to-emerald-800 to-transparent font-bold":
                   pathname === link.href,
               }
             )}
           >
-            <p className="flex w-full justify-center font-bold">{link.name}</p>
+            <p className="flex w-full justify-center ">{link.name}</p>
           </Link>
         );
       })}
