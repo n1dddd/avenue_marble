@@ -18,18 +18,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${gothic.className} subpixel-antialiased text-almostblack flex flex-col`}
+        className={`${gothic.className} subpixel-antialiased text-almostblack grid grid-cols-12 auto-rows-auto`}
       >
-        <div className="flex justify-center">
+        <div className="w-full md:h-full col-start-1 xl:col-end-2 col-end-13 bg-emerald-900">
+          <NavBar />
+        </div>
+        <div className="col-start-4 xl:col-start-3 col-end-12 xl:col-end-13">
           <AvenueLogo />
-        </div>
-        <div className="flex w-full justify-center">
-          <div className="flex w-full 2xl:w-3/4 my-12">
-            <NavBar />
-          </div>
-        </div>
-        {children}
-        <div className="flex justify-center w-full">
+          {children}
           <Footer />
         </div>
       </body>
