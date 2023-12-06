@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../../../public/logo.png";
+import logo_mobile from "../../../public/logo-mobile.png";
 
 export default function AvenueLogo() {
   return (
-    <div className="flex xl:w-3/4 md:w-full justify-center my-8">
+    <div className="w-11/12">
       <Link href="/">
         <Image
           src={logo}
