@@ -1,7 +1,7 @@
 import FooterNavLinks from "./footer-nav-links";
 export default function Footer() {
   return (
-    <div className="flex flex-col 2xl:w-3/4 w-11/12 mb-4 bg-emerald-900 text-white">
+    <div className="flex flex-col w-11/12 mb-4 bg-emerald-900 text-white">
       <p className="flex justify-center xl:text-base text-[8px] mt-2">
         Restore - Don&apos;t replace.
       </p>
